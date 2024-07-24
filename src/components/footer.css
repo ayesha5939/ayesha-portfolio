@@ -1,0 +1,77 @@
+/* Footer.css
+
+.footer {
+  background-color: #0a0a0a;
+  padding: 30px 0;
+  width:100%;
+  height:220px;
+}
+
+.social-icons {
+margin-top:50px;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* .social-icon a {
+
+  width: 40px; 
+  height: 40px;
+  line-height: 40px; 
+  text-align: center;
+
+
+}
+ */
+
+
+
+
+.footer p {
+  margin-top: 50px; /* Margin above the copyright text */
+  font-size: 14px;
+  color: #666;
+} */
+.footer {
+  background-color: #0a0a0a;
+  padding: 30px 0;
+  width: 100%;
+  height: 200px;
+}
+
+.social-icons {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center; /* Center align horizontally */
+  gap: 15px; /* Space between icons */
+}
+
+.social-icons a {
+
+  width: 40px; /* Adjust icon size */
+  height: 40px;
+  line-height: 40px; /* Center icon vertically */
+  text-align: center;
+  border-radius: 50%; /* Rounded icons */
+  background-color:rgb(51, 50, 50);
+  color: #fff;
+  animation: wave 1.5s infinite; /* Apply the wave animation */
+}
+
+.social-icons a:hover {
+  background-color: #bcbec0; /* Darker background on hover */
+}
+
+.social-icons img {
+  width: 24px; /* Adjust the size of the icon images */
+  height: 24px;
+}
+
+@keyframes wave {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Adjust the wave height */
+  }
+}

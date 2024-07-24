@@ -1,0 +1,58 @@
+/* .project {
+    padding: 80px 0; 
+  }
+  
+  .project h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  .nav-pills .nav-link {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .nav-pills .nav-link.active {
+    color: #007bff;
+  }
+  
+  .project-tab-link {
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  
+  .project-tab-link:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .project-description {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-description p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  @media (max-width: 768px) {
+    .project h2 {
+      font-size: 2rem;
+    }
+    
+    .nav-pills .nav-link {
+      font-size: 1rem;
+    }
+    
+    .project-description {
+      padding: 15px;
+    }
+  }
+   */

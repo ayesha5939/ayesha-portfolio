@@ -1,0 +1,10 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Red triangle for play button -->
+  <path d="M20.6 14.8L46.8 32L20.6 49.2V14.8Z" fill="#FF0000"/>
+  
+  <!-- White triangle for play button -->
+  <path d="M24 19.2L41.6 32L24 44.8V19.2Z" fill="#FFFFFF"/>
+  
+  <!-- Red rounded rectangle background -->
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M32 0C14.3264 0 0 14.3264 0 32C0 49.6736 14.3264 64 32 64C49.6736 64 64 49.6736 64 32C64 14.3264 49.6736 0 32 0ZM26.6667 45.0133V18.9867L44.64 32L26.6667 45.0133Z" fill="#FF0000"/>
+</svg>
