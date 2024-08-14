@@ -39,33 +39,55 @@ export const Skills = () => {
               <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                 <div className="item">
                   <img src={meter1} alt="Image" />
-                  <h5>Front-End Development</h5>
+                  <h5>HTML5</h5>
                 </div>
                 <div className="item">
                   <img src={meter1} alt="Image" />
-                  <h5>Web Design</h5>
+                  <h5>CSS3</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Image" />
-                  <h5>Logo Design</h5>
-                </div>
-                <div className="item">
-                  <img src={meter3} alt="Image" />
-                  <h5>Social Media Management</h5>
+                  <img src={meter1} alt="Image" />
+                  <h5>JavaScript</h5>
                 </div>
                 <div className="item">
                   <img src={meter3} alt="Image" />
-                  <h5>SEO Social Media</h5>
+                  <h5>React.js</h5>
+                </div>
+                <div className="item">
+                  <img src={meter3} alt="Image" />
+                  <h5>Responsive Design</h5>
                 </div>
                 
                 <div className="item">
-                  <img src={meter2} alt="Image" />
-                  <h5>Video Editing</h5>
+                  <img src={meter3} alt="Image" />
+                  <h5>UI/UX Design</h5>
                 </div>
                 <div className="item">
                   <img src={meter1} alt="Image" />
                   <h5>Problem Solving</h5>
                 </div>
+                <div className="item">
+                  <img src={meter1} alt="Image" />
+                  <h5>SEO of SOCIAL MEDIA</h5>
+                </div>
+                <div className="item">
+                  <img src={meter2} alt="Image" />
+                  <h5>Cross-Browser Compatibility</h5>
+                  
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="Image" />
+                  <h5>Collaboration and Communication</h5>
+                </div>
+                <div className="item">
+                  <img src={meter3} alt="Image" />
+                  <h5>Rendering on Blender</h5>
+                </div>
+                <div className="item">
+                  <img src={meter3} alt="Image" />
+                  <h5>Video Editing</h5>
+                </div>
+
               </Carousel>
             </div>
           </div>

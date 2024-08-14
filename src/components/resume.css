@@ -111,7 +111,7 @@ nav {
 }
 
 .job h3 {
-    color: #fff;
+    color: #130c0c;
     margin-bottom: 5px;
 }
 
@@ -141,9 +141,7 @@ nav {
         font-size: 1em;
     }
 }
-.your-container {
-    /* Styles for the container */
-  }
+
   
   .education-list {
     list-style-type: none;

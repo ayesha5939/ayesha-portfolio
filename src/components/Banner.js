@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import headerImg from '../assets/img/baack1.jpg'
 import { ArrowRightCircle } from 'react-bootstrap-icons'
-import 'animate.css'
+
 import TrackVisibility from 'react-on-screen'
 
 export const Banner = () => {
@@ -64,7 +64,7 @@ export const Banner = () => {
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
-                  <p>Passionate front-end developer with hands-on experience in React.js. I am dedicated to creating responsive and intuitive web applications. Eager to apply my skills and creativity to deliver exceptional user experiences while growing as part of a dynamic software development team.</p>
+                  <p>I am a passionate front-end developer with a strong foundation in HTML, CSS, JavaScript, and React.js. With experience in designing and iterating user interfaces for web and mobile products, I excel at translating user feedback and business requirements into elegant solutions for complex problems. My collaborative approach involves working closely with product managers, analysts, and engineers to conceptualize new features and maintain scalable and well-documented codebases.</p>
                   {/* <button onClick={() => console.log('connect')}>
                     Let’s Connect <ArrowRightCircle size={25} />
                   </button>*/}

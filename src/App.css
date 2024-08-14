@@ -237,13 +237,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 240px 0 160px 0;
-   /* background-image: url('./assets/img/portfolioBanner.png');  */
-  /* background: radial-gradient(circle, 
-  #e0dbde 0%, 
-  #9da2b3 15%, 
-  #6b8ca1 50%,
-  #b3b0b0 75% 
-); */
+
 background-color:white;
   background-position: top center;
   background-size: cover;
@@ -369,8 +363,8 @@ background-color: #f7f8f8;
   width: 40%;
   z-index: -4;
 }
-
-/************ Projects Css ************/
+/* 
+*********** Projects Css *********** */
 .project {
   padding: 80px 0;
   position: relative;
@@ -381,7 +375,7 @@ background-color: #f7f8f8;
     #6b8ca1 63%,  
     #b0b3b6 100%  
   ); 
-/* background-color:rgb(196, 181, 181); */
+
 }
 .project h2 {
 color:#fff;
@@ -402,14 +396,7 @@ color:#fff;
 .nav-pills {
   border-radius: 80px;
 }
-/* #projects-tabs-tab-second {
- 
-  font-weight: bold;
-  color: #007bff; 
-  padding: 0.5rem 1rem; 
-  margin-right: 10px; 
-  text-decoration: none; 
-} */
+
 .project .nav.nav-pills {
   width: 62%;
   margin: 0 auto;
@@ -534,10 +521,10 @@ color:#fff;
 /************ Projects Css ************/
 .contact {
   background: radial-gradient(circle, 
-  #e0dbde 0%, /* light grey */
-  #9da2b3 15%, /* light pink shade */
-  #6b8ca1 50%, /* blue shade */
-  #b3b0b0 75% /* red color */
+  #e0dbde 0%, 
+  #9da2b3 15%, 
+  #6b8ca1 50%, 
+  #b3b0b0 75% 
 );
 
 
@@ -610,15 +597,9 @@ color:#fff;
   width: 100%;
 }
 
-/************ Footer Css ************/
+/* ************ Footer Css ************ */
 .footer {
   padding: 0 0 50px 0;
-  /* background: radial-gradient(circle, 
-  #272626 0%, 
-  #abb8e4 15%,
-  #91caf0 50%, 
-  #2e2c2c 75% 
-); */
 background-color: black;
   background-position: center center;
   background-size: cover;
@@ -684,17 +665,3 @@ background-color: black;
   letter-spacing: 0.5px;
   border-radius: 18px;
 }
-/* .footer img {
-
-  width: 26%;
-}
-.footer p {
-  position:relative;
-  
-
-  font-weight: 400;
-  font-size: 14px;
-  color: white;
-  letter-spacing: 0.9px;
-  margin-top: 100px;
-} */
