@@ -64,7 +64,7 @@ I am a passionate front-end developer with a strong foundation in HTML, CSS, Jav
             <strong className="education-title">Degree Title:BS Software Engineering</strong> <br />
             <span className="education-info">Institute Name:International Islamic University, Islamabad</span> <br />
             <span className="education-details">CGPA:2.68</span>
-            <p className="education-date">Date:January 2024</p>
+            <p className="education-date"> Date:January 2024</p>
         
           </li>
           <li>
