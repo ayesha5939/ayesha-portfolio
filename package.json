@@ -39,7 +39,8 @@
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "build-css": "postcss src/styles.css -o build/styles.css"
+    "build-css": "postcss src/styles.css -o build/styles.css",
+     "lint": "eslint src --ext .js,.jsx"
   },
   "eslintConfig": {
     "extends": [

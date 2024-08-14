@@ -24,17 +24,19 @@ module.exports = {
         webpackConfig.optimization.minimizer.push(
           new CssMinimizerPlugin({
             minimizerOptions: {
-              preset: 'default',
+              preset: ['default', { discardComments: { removeAll: true } }],
             },
           })
         );
-
-        webpackConfig.plugins.push(
-          new ESLintPlugin({
-            extensions: ['js', 'jsx', 'ts', 'tsx'],
-          })
-        );
       }
+
+      // Add ESLint plugin to the configuration
+      webpackConfig.plugins.push(
+        new ESLintPlugin({
+          extensions: ['js', 'jsx'],
+        })
+      );
+
       return webpackConfig;
     },
   },
