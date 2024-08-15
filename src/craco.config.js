@@ -1,7 +1,6 @@
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const postcssPresetEnv = require('postcss-preset-env');
 const autoprefixer = require('autoprefixer');
-const ESLintPlugin = require('eslint-webpack-plugin');
 
 module.exports = {
   style: {
@@ -9,7 +8,7 @@ module.exports = {
       plugins: [
         autoprefixer,
         postcssPresetEnv({
-          stage: 0,
+          stage: 0, // Supports all modern CSS features including gradients
         }),
       ],
     },
@@ -17,10 +16,6 @@ module.exports = {
   webpack: {
     configure: (webpackConfig) => {
       if (webpackConfig.mode === 'production') {
-        webpackConfig.optimization.minimizer = webpackConfig.optimization.minimizer.filter(
-          (plugin) => !(plugin instanceof CssMinimizerPlugin)
-        );
-
         webpackConfig.optimization.minimizer.push(
           new CssMinimizerPlugin({
             minimizerOptions: {
@@ -29,14 +24,6 @@ module.exports = {
           })
         );
       }
-
-      // Add ESLint plugin to the configuration
-      webpackConfig.plugins.push(
-        new ESLintPlugin({
-          extensions: ['js', 'jsx'],
-        })
-      );
-
       return webpackConfig;
     },
   },

@@ -1,4 +1,4 @@
-/* Basic Reset and Global Styles */
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -36,7 +36,7 @@ header p {
     color: #fff;
 }
 
-/* Navbar Styles */
+
 nav {
     margin-bottom: 20px;
 }
@@ -63,13 +63,12 @@ nav {
 }
 
 .tab-list li.active {
-    color: #ff6347; /* Active tab color */
+    color: #ff6347; 
 }
 
 .tab-list li:hover {
-    color: #ff6347; /* Hover tab color */
+    color: #ff6347; 
 }
-
 .tab-list li::after {
     content: '';
     position: absolute;
@@ -77,7 +76,7 @@ nav {
     bottom: 0;
     width: 0;
     height: 3px;
-    background-color: #ff6347; /* Hover underline color */
+    background-color: #ff6347; 
     transition: width 0.3s ease;
 }
 
@@ -86,7 +85,6 @@ nav {
     width: 100%;
 }
 
-/* Tab Content Styles */
 .tab-content {
     padding: 20px;
 }
@@ -105,7 +103,7 @@ nav {
     color: #f8f4f4;
 }
 
-/* Job Section Styles */
+
 .job {
     margin-bottom: 20px;
 }
@@ -129,7 +127,7 @@ nav {
     color: #f8f7f7;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .tab-list {
         flex-direction: column;
